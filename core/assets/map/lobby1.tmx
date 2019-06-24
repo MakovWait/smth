@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1">
+ <properties>
+  <property name="hexsidelength" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="dungeon tileset calciumtrice" tilewidth="16" tileheight="16" tilecount="1050" columns="30">
+  <image source="dungeon tileset calciumtrice.png" width="480" height="560"/>
+ </tileset>
+ <tileset firstgid="1051" name="medieval tileset interior" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="medieval tileset interior.png" width="320" height="320"/>
+ </tileset>
+ <layer id="1" name="tiles" width="12" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="tiles1" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="tiles2" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="entity">
+  <properties>
+   <property name="Layer" value="entity"/>
+  </properties>
+  <object id="1" x="-151" y="-15" width="16" height="223">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="352" y="31" width="32" height="417">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="2" x="571" y="-193.5" width="97" height="319" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="3" x="351" y="423.5" width="25" height="318" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="327" y="30.333" width="42" height="96" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="2" x="255.5" y="127" width="65" height="31" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="127.833" y="310.25" width="71" height="63" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="3" x="288" y="288" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="4" x="291" y="340.5" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="9" x="352" y="309.333" width="76" height="31" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="14" x="352.167" y="245.833" width="42" height="31" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="320" y="256" width="32" height="32">
+   <properties>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="3" x="236" y="-43" width="32" height="32">
+   <properties>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="5" x="80" y="-120" width="32" height="32">
+   <properties>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="290" y="368.5" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="2" x="64" y="224" width="32" height="32">
+   <properties>
+    <property name="z" value="32.0"/>
+   </properties>
+  </object>
+  <object id="3" x="-78.5" y="288" width="23" height="31" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:0,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="-66.5" y="-100.833" width="9" height="56" rotation="90">
+   <properties>
+    <property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="1" x="290" y="368.5" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="2" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="3" x="192" y="224" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+  <object id="4" x="128" y="352" width="32" height="32">
+   <properties>
+    <property name="PhysicComponent" value="{offsetX:5,offsetY:1,width:20.18,height:6,angle:0,type:StaticBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0.2}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="en" visible="0">
+  <object id="1" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="PointLightComponent" value="{r:1,g:0.5,b:0.5,a:1,dist:5}"/>
+    <property name="z" value="0.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="6" name="tiles4" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
