@@ -1,7 +1,6 @@
 package by.men.game;
 
-import by.men.game.screen.GameScreen;
-import by.men.game.screen.MainMenuScreen;
+import by.men.game.screen.gab.GabScreen;
 import by.mkwt.dagger.DaggerMainComponent;
 import by.mkwt.dagger.MainComponent;
 
@@ -11,7 +10,7 @@ public class Game extends com.badlogic.gdx.Game {
 
 	@Override
 	public void create() {
-		setScreen(new GameScreen());
+		setScreen(new GabScreen());
 	}
 
 }
