@@ -1,0 +1,45 @@
+{
+  "place": "place",
+  "script": {
+    "choice": [
+      {
+        "title": "choice 1",
+        "reference": "ref1"
+      },
+      {
+        "title": "choice 2",
+        "reference": "ref2"
+      }
+    ],
+    "events": [
+      {
+        "class": "by.men.game.screen.gab.entity.Entity$ScriptText",
+        "text": [
+          "TEXT SCRIPT 1",
+          "TEXT SCRIPT 2",
+          "TEXT SCRIPT 3"
+        ]
+      },
+      {
+        "class": "by.men.game.screen.gab.entity.Entity$StateChange",
+        "healthChange": 5
+      },
+      {
+        "class": "by.men.game.screen.gab.entity.Entity$StateChange",
+        "characterMove": 50
+      },
+      {
+        "class": "by.men.game.screen.gab.entity.Entity$ScriptText",
+        "text": [
+          "TEXT SCRIPT 1",
+          "TEXT SCRIPT 2",
+          "TEXT SCRIPT 3"
+        ]
+      },
+      {
+        "class": "by.men.game.screen.gab.entity.Entity$StateChange",
+        "healthChange": -5
+      }
+    ]
+  }
+}
