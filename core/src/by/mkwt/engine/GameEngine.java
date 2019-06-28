@@ -1,8 +1,8 @@
 package by.mkwt.engine;
 
-import by.mkwt.engine.component.alias.PlayerComponent;
 import by.mkwt.engine.system.controller.CameraMovementSystem;
 import by.mkwt.engine.system.controller.PlayerControlSystem;
+import by.mkwt.engine.system.custom.StepSoundSystem;
 import by.mkwt.engine.system.interactive.MessageSystem;
 import by.mkwt.engine.system.physic.PhysicSystem;
 import by.mkwt.engine.system.render.LightingSystem;
@@ -57,6 +57,7 @@ public class GameEngine {
 
         engine.addSystem(new SpriteShakeSystem());
         engine.addSystem(new PlayerControlSystem(camera));
+        engine.addSystem(new StepSoundSystem());
 
         stageLoader.addStage("map/city.tmx");
 
@@ -65,10 +66,6 @@ public class GameEngine {
         addEntities(stage.getEntities());
 
         renderSystem.setStage(stage.getMap());
-
-        Entity entity = new Entity();
-
-        engine.addEntity(entity);
     }
 
     public void update(float deltaTime) {

@@ -1,10 +1,11 @@
 package by.mkwt.engine.util;
 
 import by.mkwt.engine.component.alias.PlayerComponent;
+import by.mkwt.engine.component.audio.ShootSoundComponent;
+import by.mkwt.engine.component.audio.StepSoundComponent;
 import by.mkwt.engine.component.graphic.*;
 import by.mkwt.engine.component.interactive.MessageComponent;
 import by.mkwt.engine.component.physic.PhysicComponent;
-import by.mkwt.engine.system.interactive.MessageSystem;
 import com.badlogic.ashley.core.ComponentMapper;
 
 public class CMHolder {
@@ -18,6 +19,8 @@ public class CMHolder {
     public static ComponentMapper<SpriteShakeComponent> spriteShake = ComponentMapper.getFor(SpriteShakeComponent.class);
     public static ComponentMapper<MessageComponent> message = ComponentMapper.getFor(MessageComponent.class);
     public static ComponentMapper<PlayerComponent> player = ComponentMapper.getFor(PlayerComponent.class);
+    public static ComponentMapper<StepSoundComponent> stepSound = ComponentMapper.getFor(StepSoundComponent.class);
+    public static ComponentMapper<ShootSoundComponent> shootSound = ComponentMapper.getFor(ShootSoundComponent.class);
 
     //public static ComponentMapper<>  = ComponentMapper.getFor();
 }
