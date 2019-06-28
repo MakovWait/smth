@@ -1,5 +1,6 @@
 package by.mkwt.engine.system.interactive;
 
+import by.men.game.ui.SimpleMessage;
 import by.mkwt.engine.component.alias.PlayerComponent;
 import by.mkwt.engine.component.graphic.TransformComponent;
 import by.mkwt.engine.component.interactive.MessageComponent;
@@ -29,9 +30,15 @@ public class MessageSystem extends IteratingSystem {
         messageEntities.forEach(messageEntity -> {
             TransformComponent transformComponent = CMHolder.transform.get(messageEntity);
             if (transformComponent.position.cpy().sub(CMHolder.transform.get(target).position).len() < CMHolder.message.get(messageEntity).radius) {
-                messageEntity.remove(MessageComponent.class);
-                if (CMHolder.message.has(messageEntity))
-                showMessageMediator.showMessage(CMHolder.message.get(messageEntity).msg);
+                if (!CMHolder.message.get(messageEntity).isShowed) {
+                    showMessageMediator.showMessage(new SimpleMessage(CMHolder.message.get(messageEntity).title, CMHolder.message.get(messageEntity).msg));
+                    CMHolder.message.get(messageEntity).isShowed = true;
+                }
+            } else {
+                if (CMHolder.message.get(messageEntity).isShowed) {
+                    showMessageMediator.hideMessage();
+                    CMHolder.message.get(messageEntity).isShowed = false;
+                }
             }
         });
 

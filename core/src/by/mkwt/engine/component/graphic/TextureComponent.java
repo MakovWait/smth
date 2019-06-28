@@ -22,4 +22,5 @@ public class TextureComponent implements Component, Json.Serializable {
         String filePath = jsonData.get("texturePath").asString();
         region = new TextureRegion(new Texture(filePath));
     }
+
 }

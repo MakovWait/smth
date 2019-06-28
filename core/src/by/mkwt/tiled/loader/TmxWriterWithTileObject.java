@@ -19,11 +19,7 @@ import static com.badlogic.gdx.math.MathUtils.round;
 import static net.dermetfan.gdx.maps.MapUtils.getProperty;
 
 public class TmxWriterWithTileObject extends TmxMapWriter {
-    /**
-     * creates a new {@link TmxMapWriter} using the given {@link Writer}
-     *
-     * @param writer
-     */
+
     public TmxWriterWithTileObject(Writer writer) {
         super(writer);
     }

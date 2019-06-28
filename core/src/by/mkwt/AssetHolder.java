@@ -59,4 +59,9 @@ public class AssetHolder {
     public BitmapFont getFont24() {
         return font24;
     }
+
+    public void dispose() {
+        assetManager.dispose();
+        getFont24().dispose();
+    }
 }

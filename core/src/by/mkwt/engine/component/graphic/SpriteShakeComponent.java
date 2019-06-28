@@ -18,4 +18,5 @@ public class SpriteShakeComponent implements Component, Json.Serializable, MapPr
     public void read(Json json, JsonValue jsonData) {
         shakeForce = jsonData.getFloat("shakeForce");
     }
+
 }

@@ -13,6 +13,7 @@ import net.dermetfan.gdx.maps.tiled.TmxMapWriter;
 import javax.inject.Inject;
 import java.io.IOException;
 import java.io.StringWriter;
+import java.io.UnsupportedEncodingException;
 
 public class StageLoader {
 
@@ -27,6 +28,7 @@ public class StageLoader {
         this.assetHolder = assetHolder;
         this.tiledSerializer = tiledSerializer;
         stringWriter = new StringWriter();
+
         tmxMapWriter = new TmxWriterWithTileObject(stringWriter);
         stages = new Array<>();
     }
@@ -65,7 +67,7 @@ public class StageLoader {
             tmxMapWriter.tmx(stage.getMap(), TmxMapWriter.Format.CSV);
             //TODO сохраняет калично
             FileHandle file = Gdx.files.local(stage.getMapName());
-            file.writeString(stringWriter.toString(), false);
+            file.writeBytes(stringWriter.toString().getBytes("UTF-8"), false);
         } catch (IOException e) {
             e.printStackTrace();
         }

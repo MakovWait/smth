@@ -1,7 +1,11 @@
 package by.mkwt.provider;
 
+import by.men.game.ui.SimpleMessage;
+
 public interface ShowMessageMediator {
 
-    void showMessage(String msg);
+    void showMessage(SimpleMessage simpleMessage);
+
+    void hideMessage();
 
 }

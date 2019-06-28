@@ -15,7 +15,7 @@ public class CameraMovementSystem extends IteratingSystem {
 
     private OrthographicCamera camera;
     private Vector2 direction = new Vector2(0, 0);
-    private final float maxLen = 25;
+    private final float maxLen = 7;
 
     public CameraMovementSystem(OrthographicCamera camera) {
         super(Family.all(PlayerComponent.class, TransformComponent.class).get());
