@@ -1,8 +1,10 @@
 package by.mkwt.engine.system.controller;
 
+import by.mkwt.engine.Constants;
 import by.mkwt.engine.util.CMHolder;
 import by.mkwt.engine.component.alias.PlayerComponent;
 import by.mkwt.engine.component.physic.PhysicComponent;
+import by.mkwt.engine.util.CoordsConverter;
 import by.mkwt.engine.util.Multiflexer;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.Family;
@@ -20,13 +22,15 @@ public class PlayerControlSystem extends IteratingSystem {
 
     private Vector2 direction = new Vector2();
 
-    private float pushForce = 3f;
+    private float pushForce = 2f;
 
     private boolean isTouched = false;
 
     private final float ALLOWABLE_LENGTH = 0.5f;
 
     private boolean isShift = false;
+
+    private Vector2 tmp = new Vector2();
 
     private InputAdapter inputAdapter = new InputAdapter() {
         @Override
@@ -93,22 +97,22 @@ public class PlayerControlSystem extends IteratingSystem {
 
     @Override
     protected void processEntity(Entity entity, float deltaTime) {
-        PhysicComponent body = CMHolder.physic.get(entity);
+        PhysicComponent physicBody = CMHolder.physic.get(entity);
 
-        Vector2 vel = body.body.getLinearVelocity();
-        Vector2 pos = body.body.getPosition();
-
+//        Vector2 vel = body.body.getLinearVelocity();
+//        Vector2 pos = body.body.getPosition();
+//
 //        if (vel.len() < 4) {
 //            body.body.applyLinearImpulse(direction.cpy().scl(pushForce), body.body.getWorldCenter(), true);
 //        }
-//
-//
+
         float currentSpeed = pushForce;
 
         if (isShift) {
             currentSpeed *= 2;
         }
 
-        body.body.setLinearVelocity(direction.cpy().nor().scl(currentSpeed));
+        tmp.set(direction);
+        physicBody.body.setLinearVelocity(tmp.nor().scl(CoordsConverter.MetersToPixels(currentSpeed * deltaTime)));
     }
 }
