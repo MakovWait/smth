@@ -1,4 +1,4 @@
-package by.mkwt.engine.engine.util;
+package by.mkwt.engine.util;
 
 import box2dLight.ConeLight;
 import box2dLight.PointLight;

@@ -1,4 +1,4 @@
-package by.mkwt.engine.tiled;
+package by.men.game.stage;
 
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.gdx.maps.MapObject;

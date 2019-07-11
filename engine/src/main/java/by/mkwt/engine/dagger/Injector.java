@@ -1,10 +1,12 @@
-package by.men.game.dagger;
+package by.mkwt.engine.dagger;
 
-public class Injector {
+import by.mkwt.engine.GameContext;
+import by.mkwt.engine.ecs.system.render.LightingSystem;
 
-    public static MainComponent MAIN_COMPONENT = DaggerMainComponent.create();
+public interface Injector {
 
-    private Injector() {
-    }
+    void inject(GameContext gameContext);
+
+    void inject(LightingSystem system);
 
 }

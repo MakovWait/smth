@@ -1,34 +1,28 @@
 package by.mkwt.engine.tiled.serializer;
 
 import box2dLight.RayHandler;
-import by.mkwt.engine.component.alias.PlayerComponent;
-import by.mkwt.engine.component.graphic.LayerComponent;
-import by.mkwt.engine.util.CMHolder;
-import by.mkwt.engine.component.graphic.PointLightComponent;
-import by.mkwt.engine.component.graphic.TextureComponent;
-import by.mkwt.engine.component.graphic.TransformComponent;
-import by.mkwt.engine.component.physic.PhysicComponent;
+import by.mkwt.engine.util.CoreCMHolder;
+import by.mkwt.engine.ecs.component.graphic.LayerComponent;
+import by.mkwt.engine.ecs.component.graphic.PointLightComponent;
+import by.mkwt.engine.ecs.component.graphic.TextureComponent;
+import by.mkwt.engine.ecs.component.graphic.TransformComponent;
+import by.mkwt.engine.ecs.component.physic.PhysicComponent;
+import by.mkwt.engine.tiled.TiledEntity;
+import by.mkwt.engine.tiled.marker.MapPropertyComponent;
 import by.mkwt.engine.util.CoordsConverter;
-import by.mkwt.serializer.PhysicComponentSerializer;
-import by.mkwt.serializer.PointLightComponentSerializer;
-import by.mkwt.tiled.TiledEntity;
-import by.mkwt.tiled.marker.MapPropertyComponent;
 import com.badlogic.ashley.core.Component;
-import com.badlogic.ashley.core.Entity;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.physics.box2d.*;
+import com.badlogic.gdx.physics.box2d.Body;
+import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Json;
 import com.badlogic.gdx.utils.ObjectMap;
-import com.badlogic.gdx.utils.PropertiesUtils;
 import com.badlogic.gdx.utils.reflect.ClassReflection;
 import com.badlogic.gdx.utils.reflect.ReflectionException;
 
 import javax.inject.Inject;
-import java.io.IOException;
 import java.util.Iterator;
 
 public class TiledSerializer {
@@ -38,27 +32,23 @@ public class TiledSerializer {
     private ObjectMap<String, String> components;
     private RayHandler rayHandler;
 
-    private PhysicComponentSerializer physicComponentSerializer;
-    private PointLightComponentSerializer pointLightComponentSerializer;
+//    private PhysicComponentSerializer physicComponentSerializer;
+//    private PointLightComponentSerializer pointLightComponentSerializer;
 
     @Inject
-    public TiledSerializer(Json json, World world, RayHandler rayHandler) {
+    public TiledSerializer(Json json, World world, RayHandler rayHandler, ObjectMap<String, String> components) {
         this.json = json;
         this.world = world;
         this.rayHandler = rayHandler;
-        components = new ObjectMap<>();
+        this.components = components;
 
-        physicComponentSerializer = new PhysicComponentSerializer(world);
-        pointLightComponentSerializer = new PointLightComponentSerializer(rayHandler);
+        json.setSerializer(PhysicComponent.class, new PhysicComponentSerializer(world));
+        json.setSerializer(PointLightComponent.class, new PointLightComponentSerializer(rayHandler));
 
-        json.setSerializer(PhysicComponent.class, physicComponentSerializer);
-        json.setSerializer(PointLightComponent.class, pointLightComponentSerializer);
-
-        try {
-            PropertiesUtils.load(components, Gdx.files.internal("config/components.properties").reader());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        physicComponentSerializer = new PhysicComponentSerializer(world);
+//        pointLightComponentSerializer = new PointLightComponentSerializer(rayHandler);
+//
+//        json.setSerializer(PhysicComponent.class, physicComponentSerializer);
     }
 
     public void prepare() {
@@ -66,6 +56,10 @@ public class TiledSerializer {
         world.getBodies(bodies);
         bodies.forEach(world::destroyBody);
         rayHandler.removeAll();
+    }
+
+    public <T> void setJsonSerializer(Class<T> clazz, Json.Serializer<T> serializer) {
+        json.setSerializer(clazz, serializer);
     }
 
     public TiledEntity parse(MapObject mapObject) {
@@ -99,7 +93,7 @@ public class TiledSerializer {
     }
 
     public MapObject update(TiledEntity entity) {
-        TransformComponent transform = CMHolder.transform.get(entity);
+        TransformComponent transform = CoreCMHolder.transform.get(entity);
         MapObject mapObject = entity.getMapObject();
 
         Array<String> updatedProperties = new Array<>();
@@ -111,8 +105,8 @@ public class TiledSerializer {
         mapObject.getProperties().put("type", "");
         mapObject.getProperties().put("rotation", -transform.rotation);
 
-        if (CMHolder.layer.has(entity)) {
-            mapObject.getProperties().put("layer", CMHolder.layer.get(entity).layerName);
+        if (CoreCMHolder.layer.has(entity)) {
+            mapObject.getProperties().put("layer", CoreCMHolder.layer.get(entity).layerName);
         }
 
         updatedProperties.add("x");

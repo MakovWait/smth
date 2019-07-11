@@ -1,4 +1,9 @@
 package by.mkwt.engine.disposer;
 
-public class Disposer {
+public interface Disposer {
+
+    void init();
+
+    void dispose();
+
 }

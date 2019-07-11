@@ -1,4 +1,4 @@
-package by.mkwt.engine.engine;
+package by.mkwt.engine.util;
 
 import com.badlogic.gdx.math.Vector2;
 

@@ -1,6 +1,7 @@
-package by.mkwt.engine.tiled;
+package by.men.game.stage;
 
-import by.mkwt.AssetHolder;
+import by.men.game.resource.AssetHolder;
+import by.mkwt.engine.tiled.TiledEntity;
 import by.mkwt.engine.tiled.loader.TmxWriterWithTileObject;
 import by.mkwt.engine.tiled.preprocessor.MapPropertiesHandler;
 import by.mkwt.engine.tiled.serializer.TiledSerializer;

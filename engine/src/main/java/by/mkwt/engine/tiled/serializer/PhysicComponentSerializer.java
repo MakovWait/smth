@@ -1,15 +1,10 @@
-package by.mkwt.engine.serializer;
+package by.mkwt.engine.tiled.serializer;
 
-import by.mkwt.engine.component.graphic.TransformComponent;
-import by.mkwt.engine.component.physic.PhysicComponent;
-import by.mkwt.engine.engine.component.graphic.TransformComponent;
-import by.mkwt.engine.engine.component.physic.PhysicComponent;
+import by.mkwt.engine.util.CoreCMHolder;
+import by.mkwt.engine.ecs.component.graphic.TransformComponent;
+import by.mkwt.engine.ecs.component.physic.PhysicComponent;
 import by.mkwt.engine.tiled.TiledEntity;
-import by.mkwt.engine.tiled.serializer.ComponentSerializer;
-import by.mkwt.engine.util.CMHolder;
 import by.mkwt.engine.util.CoordsConverter;
-import by.mkwt.tiled.TiledEntity;
-import by.mkwt.tiled.serializer.ComponentSerializer;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.maps.objects.RectangleMapObject;
@@ -31,7 +26,7 @@ public class PhysicComponentSerializer extends ComponentSerializer implements Js
     @Override
     public void write(Json json, PhysicComponent object, Class knownType) {
         json.writeObjectStart();
-        TransformComponent transformComponent = CMHolder.transform.get((Entity) object.body.getUserData());
+        TransformComponent transformComponent = CoreCMHolder.transform.get((Entity) object.body.getUserData());
 
         if (!object.isRectangleMapObject) {
 //            json.writeValue("x", CoordsConverter.MetersToPixels(transformComponent.position.x - transformComponent.offset.x));
@@ -54,7 +49,7 @@ public class PhysicComponentSerializer extends ComponentSerializer implements Js
 
     @Override
     public PhysicComponent read(Json json, JsonValue jsonData, Class type) {
-        TransformComponent transformComponent = CMHolder.transform.get(entity);
+        TransformComponent transformComponent = CoreCMHolder.transform.get(entity);
         MapObject mapObject = entity.getMapObject();
 
         PhysicBodyBlank blank = json.fromJson(PhysicBodyBlank.class, (String) mapObject.getProperties().get("PhysicComponent"));

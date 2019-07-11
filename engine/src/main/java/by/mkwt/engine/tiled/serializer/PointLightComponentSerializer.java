@@ -1,16 +1,11 @@
-package by.mkwt.engine.serializer;
+package by.mkwt.engine.tiled.serializer;
 
 import box2dLight.RayHandler;
-import by.mkwt.engine.component.graphic.PointLightComponent;
-import by.mkwt.engine.component.graphic.TransformComponent;
-import by.mkwt.engine.engine.component.graphic.PointLightComponent;
-import by.mkwt.engine.engine.component.graphic.TransformComponent;
+import by.mkwt.engine.util.CoreCMHolder;
+import by.mkwt.engine.ecs.component.graphic.PointLightComponent;
+import by.mkwt.engine.ecs.component.graphic.TransformComponent;
 import by.mkwt.engine.tiled.TiledEntity;
-import by.mkwt.engine.tiled.serializer.ComponentSerializer;
-import by.mkwt.engine.util.CMHolder;
 import by.mkwt.engine.util.LightBuilder;
-import by.mkwt.tiled.TiledEntity;
-import by.mkwt.tiled.serializer.ComponentSerializer;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.maps.MapObject;
 import com.badlogic.gdx.utils.Json;
@@ -44,7 +39,7 @@ public class PointLightComponentSerializer extends ComponentSerializer implement
     @Override
     public PointLightComponent read(Json json, JsonValue jsonData, Class type) {
         MapObject mapObject = entity.getMapObject();
-        TransformComponent transformComponent = CMHolder.transform.get(entity);
+        TransformComponent transformComponent = CoreCMHolder.transform.get(entity);
 
         PointLightBlank blank = json.fromJson(PointLightBlank.class, (String) mapObject.getProperties().get("PointLightComponent"));
         blank.x = transformComponent.position.x;
