@@ -1,0 +1,1 @@
+Sprite-0002_01.png.png 0 0, Sprite-0002_02.png.png 6 214, Sprite-0002_03.png.png 64 218, Sprite-0002_04.png.png 96 250, Sprite-0002_05.png.png 0 248.

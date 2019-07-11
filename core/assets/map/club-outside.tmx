@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
+	<properties>
+		<property name="atlas" value="unnamed.atlas"/>
+		<property name="hexsidelength" value="0"/>
+	</properties>
+	<tileset firstgid="1" name="dog" tilewidth="32" tileheight="64" spacing="0" margin="0">
+		<tileoffset x="0" y="0"/>
+		<image source="dog.png" imagewidth="0" imageheight="0"/>
+	</tileset>
+	<tileset firstgid="2" name="11" tilewidth="32" tileheight="32" spacing="2" margin="1">
+		<tileoffset x="0" y="0"/>
+		<image source="11.png" imagewidth="0" imageheight="0"/>
+	</tileset>
+	<layer name="tiles" width="50" height="30" visible="1" opacity="1.0">
+		<data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		</data>
+	</layer>
+	<layer name="tiles1" width="50" height="30" visible="1" opacity="1.0">
+		<data encoding="csv">
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,714,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,716,
+711,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,712,713,
+748,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,750
+		</data>
+	</layer>
+	<layer name="tiles2" width="50" height="30" visible="1" opacity="1.0">
+		<data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,42,
+5,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,42,
+5,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,42,
+5,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,42,
+39,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,40,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,337,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+299,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,301,
+743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,
+743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,
+743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,743,749,
+749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,
+749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,749,
+822,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,827,827,827,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		</data>
+	</layer>
+	<objectgroup name="entity">
+		<properties>
+			<property name="Layer" value="entity"/>
+		</properties>
+		<object id="2" name="" type="" gid="2147483649" x="91.4615" y="453.25223" width="32.0" height="64.0" rotation="4.933892">
+			<properties>
+				<property name="PhysicComponent" value="{offsetX:0,offsetY:0,width:11,height:3,angle:0,type:DynamicBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0}"/>
+				<property name="MessageComponent" value="{radius:2,title:*Какой-то чувак*,msg:[привет а че ты делоеш?,))))]}"/>
+				<property name="SpriteShakeComponent" value="{shakeForce:5}"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="2" name="" type="" x="4.606018" y="289.849" width="1594" height="123" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" gid="1" x="798.3629" y="489.10345" width="32.0" height="64.0" rotation="-2.6514566">
+			<properties>
+				<property name="FlippableMarkerComponent" value="{}"/>
+				<property name="PhysicComponent" value="{offsetX:0,offsetY:0,width:32,height:3,angle:0,type:DynamicBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0}"/>
+				<property name="SpriteShakeComponent" value="{shakeForce:5}"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+				<property name="PlayerComponent" value="{}"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" gid="1" x="403.7361" y="423.76025" width="32.0" height="64.0" rotation="2.147304">
+			<properties>
+				<property name="PhysicComponent" value="{offsetX:0,offsetY:0,width:11,height:3,angle:0,type:DynamicBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0}"/>
+				<property name="MessageComponent" value="{radius:2,title:*Пиздежник*,msg:[пиздит пиздит пиздит пиздит пиздит пиздит пиздит,и пиздит..................,напизделся]}"/>
+				<property name="SpriteShakeComponent" value="{shakeForce:5}"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="18" name="" type="" gid="189" x="32.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="19" name="" type="" gid="189" x="64.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="20" name="" type="" gid="189" x="96.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="21" name="" type="" gid="189" x="128.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="22" name="" type="" gid="189" x="160.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="25" name="" type="" gid="189" x="192.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="26" name="" type="" gid="189" x="224.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="27" name="" type="" gid="189" x="256.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="28" name="" type="" gid="189" x="288.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="29" name="" type="" gid="189" x="320.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="30" name="" type="" gid="189" x="352.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="31" name="" type="" gid="189" x="384.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="32" name="" type="" gid="189" x="416.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="33" name="" type="" gid="189" x="448.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="34" name="" type="" gid="189" x="480.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="35" name="" type="" gid="189" x="512.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="36" name="" type="" gid="189" x="544.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="37" name="" type="" gid="189" x="576.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="38" name="" type="" gid="189" x="608.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="39" name="" type="" gid="189" x="640.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="40" name="" type="" gid="189" x="672.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="41" name="" type="" gid="189" x="704.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="42" name="" type="" gid="189" x="736.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="43" name="" type="" gid="189" x="768.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="44" name="" type="" gid="189" x="800.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="47" name="" type="" gid="189" x="896.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="48" name="" type="" gid="189" x="928.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="49" name="" type="" gid="189" x="960.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="50" name="" type="" gid="189" x="992.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="51" name="" type="" gid="189" x="1024.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="52" name="" type="" gid="189" x="1056.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="53" name="" type="" gid="189" x="1088.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="54" name="" type="" gid="189" x="1120.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="55" name="" type="" gid="189" x="1152.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="56" name="" type="" gid="189" x="1184.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="57" name="" type="" gid="189" x="1216.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="58" name="" type="" gid="189" x="1248.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="59" name="" type="" gid="189" x="1280.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="60" name="" type="" gid="189" x="1312.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="61" name="" type="" gid="189" x="1344.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="62" name="" type="" gid="189" x="1376.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="63" name="" type="" gid="189" x="1408.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="64" name="" type="" gid="189" x="1440.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="65" name="" type="" gid="189" x="1472.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="66" name="" type="" gid="189" x="1504.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="67" name="" type="" gid="189" x="1536.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="69" name="" type="" gid="262" x="0.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="70" name="" type="" gid="263" x="32.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="71" name="" type="" gid="263" x="64.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="72" name="" type="" gid="263" x="96.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="73" name="" type="" gid="263" x="128.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="74" name="" type="" gid="263" x="160.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="75" name="" type="" gid="263" x="192.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="76" name="" type="" gid="263" x="224.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="77" name="" type="" gid="263" x="256.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="78" name="" type="" gid="263" x="288.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="79" name="" type="" gid="263" x="320.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="80" name="" type="" gid="263" x="352.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="81" name="" type="" gid="263" x="384.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="82" name="" type="" gid="263" x="416.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="83" name="" type="" gid="263" x="448.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="84" name="" type="" gid="263" x="480.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="85" name="" type="" gid="263" x="512.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="86" name="" type="" gid="263" x="544.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="87" name="" type="" gid="263" x="576.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="88" name="" type="" gid="263" x="608.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="89" name="" type="" gid="263" x="640.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="90" name="" type="" gid="263" x="672.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="91" name="" type="" gid="263" x="704.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="92" name="" type="" gid="263" x="736.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="93" name="" type="" gid="263" x="768.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="94" name="" type="" gid="263" x="800.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="95" name="" type="" gid="263" x="832.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="96" name="" type="" gid="263" x="864.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="97" name="" type="" gid="263" x="896.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="98" name="" type="" gid="263" x="928.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="99" name="" type="" gid="263" x="960.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="100" name="" type="" gid="263" x="992.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="101" name="" type="" gid="263" x="1024.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="102" name="" type="" gid="263" x="1056.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="103" name="" type="" gid="263" x="1088.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="104" name="" type="" gid="263" x="1120.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="105" name="" type="" gid="263" x="1152.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="106" name="" type="" gid="263" x="1184.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="107" name="" type="" gid="263" x="1216.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="108" name="" type="" gid="263" x="1248.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="109" name="" type="" gid="263" x="1280.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="110" name="" type="" gid="263" x="1312.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="111" name="" type="" gid="263" x="1344.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="112" name="" type="" gid="263" x="1376.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="113" name="" type="" gid="263" x="1408.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="114" name="" type="" gid="263" x="1440.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="115" name="" type="" gid="263" x="1472.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="116" name="" type="" gid="263" x="1504.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="117" name="" type="" gid="263" x="1536.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="118" name="" type="" gid="264" x="1568.0" y="352.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="119" name="" type="" gid="190" x="1568.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="120" name="" type="" gid="188" x="0.0" y="384.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0"/>
+			</properties>
+		</object>
+		<object id="122" name="" type="" gid="188" x="0.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="123" name="" type="" gid="189" x="32.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="124" name="" type="" gid="189" x="64.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="125" name="" type="" gid="189" x="96.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="126" name="" type="" gid="189" x="128.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="127" name="" type="" gid="189" x="192.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="128" name="" type="" gid="189" x="160.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="129" name="" type="" gid="189" x="224.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="130" name="" type="" gid="189" x="256.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="131" name="" type="" gid="189" x="288.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="132" name="" type="" gid="189" x="320.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="133" name="" type="" gid="189" x="352.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="134" name="" type="" gid="189" x="384.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="135" name="" type="" gid="189" x="416.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="136" name="" type="" gid="189" x="448.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="137" name="" type="" gid="189" x="480.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="138" name="" type="" gid="189" x="512.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="139" name="" type="" gid="189" x="544.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="140" name="" type="" gid="189" x="576.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="141" name="" type="" gid="189" x="608.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="142" name="" type="" gid="189" x="640.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="143" name="" type="" gid="189" x="672.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="144" name="" type="" gid="189" x="704.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="145" name="" type="" gid="189" x="736.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="146" name="" type="" gid="189" x="768.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="147" name="" type="" gid="189" x="800.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="148" name="" type="" gid="189" x="832.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="149" name="" type="" gid="189" x="864.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="150" name="" type="" gid="189" x="896.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="151" name="" type="" gid="189" x="928.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="152" name="" type="" gid="189" x="960.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="153" name="" type="" gid="189" x="992.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="154" name="" type="" gid="189" x="1024.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="155" name="" type="" gid="189" x="1056.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="156" name="" type="" gid="189" x="1088.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="157" name="" type="" gid="189" x="1120.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="158" name="" type="" gid="189" x="1152.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="159" name="" type="" gid="189" x="1184.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="160" name="" type="" gid="189" x="1216.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="161" name="" type="" gid="189" x="1248.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="162" name="" type="" gid="189" x="1280.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="163" name="" type="" gid="189" x="1312.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="164" name="" type="" gid="189" x="1344.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="165" name="" type="" gid="189" x="1408.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="166" name="" type="" gid="189" x="1376.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="167" name="" type="" gid="189" x="1440.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="168" name="" type="" gid="189" x="1472.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="169" name="" type="" gid="189" x="1504.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="170" name="" type="" gid="189" x="1536.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="172" name="" type="" gid="188" x="0.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="173" name="" type="" gid="189" x="32.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="174" name="" type="" gid="189" x="64.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="175" name="" type="" gid="189" x="96.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="176" name="" type="" gid="189" x="128.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="177" name="" type="" gid="189" x="160.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="178" name="" type="" gid="189" x="192.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="179" name="" type="" gid="189" x="224.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="180" name="" type="" gid="189" x="256.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="181" name="" type="" gid="189" x="288.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="182" name="" type="" gid="189" x="320.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="183" name="" type="" gid="189" x="352.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="184" name="" type="" gid="189" x="384.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="185" name="" type="" gid="189" x="416.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="186" name="" type="" gid="189" x="448.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="187" name="" type="" gid="189" x="480.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="188" name="" type="" gid="189" x="512.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="189" name="" type="" gid="189" x="544.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="190" name="" type="" gid="189" x="576.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="191" name="" type="" gid="189" x="608.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="192" name="" type="" gid="189" x="640.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="193" name="" type="" gid="189" x="672.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="194" name="" type="" gid="189" x="704.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="195" name="" type="" gid="189" x="736.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="196" name="" type="" gid="189" x="768.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="197" name="" type="" gid="189" x="800.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="198" name="" type="" gid="189" x="832.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="199" name="" type="" gid="189" x="864.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="200" name="" type="" gid="189" x="896.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="201" name="" type="" gid="189" x="928.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="202" name="" type="" gid="189" x="960.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="203" name="" type="" gid="189" x="992.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="204" name="" type="" gid="189" x="1024.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="205" name="" type="" gid="189" x="1056.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="206" name="" type="" gid="189" x="1088.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="207" name="" type="" gid="189" x="1120.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="208" name="" type="" gid="189" x="1152.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="209" name="" type="" gid="189" x="1184.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="210" name="" type="" gid="189" x="1216.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="211" name="" type="" gid="189" x="1248.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="212" name="" type="" gid="189" x="1280.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="213" name="" type="" gid="189" x="1312.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="214" name="" type="" gid="189" x="1344.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="215" name="" type="" gid="189" x="1376.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="216" name="" type="" gid="189" x="1408.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="217" name="" type="" gid="189" x="1440.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="218" name="" type="" gid="189" x="1472.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="219" name="" type="" gid="189" x="1504.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="220" name="" type="" gid="189" x="1536.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="222" name="" type="" gid="190" x="1568.0" y="288.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="4"/>
+			</properties>
+		</object>
+		<object id="223" name="" type="" gid="190" x="1568.0" y="320.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" x="0.0" y="416.0" width="34" height="540" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="2" name="" type="" x="1568.0" y="416.0" width="34" height="540" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" x="4.0" y="922.0" width="1600" height="32" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" gid="952" x="820.75" y="416.0" width="43.25" height="43.25" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="-0.5"/>
+			</properties>
+		</object>
+		<object id="2" name="" type="" gid="915" x="820.75" y="372.75" width="43.25" height="43.25" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="3" name="" type="" gid="953" x="864.0" y="416.0" width="43.25" height="43.25" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="-0.5"/>
+			</properties>
+		</object>
+		<object id="4" name="" type="" gid="916" x="864.0" y="372.75" width="43.25" height="43.25" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="6" name="" type="" gid="673" x="1375.0" y="595.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="7" name="" type="" gid="636" x="1375.0" y="563.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="8" name="" type="" gid="636" x="1375.0" y="531.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="9" name="" type="" gid="560" x="1375.0" y="499.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="10" name="" type="" gid="673" x="1184.0" y="914.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="11" name="" type="" gid="636" x="1184.0" y="882.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="12" name="" type="" gid="636" x="1184.0" y="850.0" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="2"/>
+			</properties>
+		</object>
+		<object id="13" name="" type="" gid="557" x="1184.13" y="818.125" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="3"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" gid="665" x="55.0" y="897.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="2" name="" type="" gid="666" x="116.167" y="897.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="3" name="" type="" gid="667" x="177.333" y="897.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="5" name="" type="" gid="630" x="177.333" y="835.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="6" name="" type="" gid="629" x="116.167" y="835.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="7" name="" type="" gid="628" x="55.0" y="835.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="8" name="" type="" gid="665" x="268.75" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="9" name="" type="" gid="666" x="329.917" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="10" name="" type="" gid="667" x="391.083" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="11" name="" type="" gid="630" x="391.083" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="12" name="" type="" gid="629" x="329.917" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="13" name="" type="" gid="628" x="268.75" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="14" name="" type="" gid="665" x="493.75003" y="893.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="15" name="" type="" gid="666" x="554.917" y="893.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="16" name="" type="" gid="667" x="616.083" y="893.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="17" name="" type="" gid="630" x="616.083" y="831.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="18" name="" type="" gid="629" x="554.917" y="831.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="19" name="" type="" gid="628" x="493.75003" y="831.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="20" name="" type="" gid="665" x="755.75" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="21" name="" type="" gid="666" x="816.917" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="22" name="" type="" gid="667" x="878.083" y="894.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="23" name="" type="" gid="630" x="878.083" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="24" name="" type="" gid="629" x="816.917" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="25" name="" type="" gid="628" x="755.75" y="832.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="38" name="" type="" gid="662" x="43.9168" y="664.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="39" name="" type="" gid="663" x="105.08399" y="664.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="40" name="" type="" gid="664" x="166.25" y="664.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="41" name="" type="" gid="627" x="166.25" y="602.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="42" name="" type="" gid="626" x="105.08399" y="602.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="43" name="" type="" gid="625" x="43.9168" y="602.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="44" name="" type="" gid="662" x="250.25" y="642.5" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="45" name="" type="" gid="663" x="311.417" y="642.5" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="46" name="" type="" gid="664" x="372.583" y="642.5" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="47" name="" type="" gid="627" x="372.583" y="581.333" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="48" name="" type="" gid="626" x="311.417" y="581.333" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="49" name="" type="" gid="625" x="250.25" y="581.333" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="50" name="" type="" gid="662" x="475.25" y="649.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="51" name="" type="" gid="663" x="536.417" y="649.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="52" name="" type="" gid="664" x="597.583" y="649.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="53" name="" type="" gid="627" x="597.583" y="587.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="54" name="" type="" gid="626" x="536.417" y="587.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="55" name="" type="" gid="625" x="475.25" y="587.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="56" name="" type="" gid="662" x="696.25" y="662.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="57" name="" type="" gid="663" x="757.417" y="662.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="58" name="" type="" gid="664" x="818.583" y="662.0" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="59" name="" type="" gid="627" x="818.583" y="600.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="60" name="" type="" gid="626" x="757.417" y="600.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="61" name="" type="" gid="625" x="696.25" y="600.833" width="61.1667" height="61.1667" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="z" value="1"/>
+			</properties>
+		</object>
+		<object id="1" name="" type="" x="190.0" y="1128.0" width="146" height="32" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="4" name="" type="" gid="147" x="714.13605" y="454.53125" width="46.6667" height="54.0" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{offsetX:15,offsetY:10,width:20,height:3,angle:0,type:DynamicBody,isSensor:false,isFixedRotation:true,density:100,friction:1,restitution:0}"/>
+				<property name="layer" value="entity"/>
+				<property name="z" value="-0.2"/>
+			</properties>
+		</object>
+		<object id="2" name="" type="" gid="565" x="256.0" y="512.0" width="32.0" height="69.5" rotation="-0.0">
+			<properties>
+				<property name="layer" value="entity"/>
+				<property name="MessageComponent" value="{radius:2,title:*Надпись на вывеске*,msg:[Культурный клуб феменизма,через 10 м]}"/>
+				<property name="PointLightComponent" value="{r:1,g:0.5,b:0.5,a:1,dist:2}"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+	</objectgroup>
+	<objectgroup name="light"/>
+	<objectgroup name="bounding">
+		<object id="2" name="" type="" x="68.56061" y="843.955" width="148" height="48" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="bounding"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="3" name="" type="" x="288.909" y="842.5" width="136" height="48" rotation="-0.0">
+			<properties>
+				<property name="PhysicComponent" value="{type:StaticBody,isSensor:false,isFixedRotation:false,density:100,friction:1,restitution:0.2}"/>
+				<property name="ыы" value="31487.0"/>
+				<property name="layer" value="bounding"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+	</objectgroup>
+	<objectgroup name="en">
+		<object id="9" name="" type="" gid="296" x="834.667" y="324.667" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="en"/>
+				<property name="PointLightComponent" value="{r:1,g:0.5,b:0.5,a:1,dist:2}"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+		<object id="10" name="" type="" gid="297" x="866.667" y="324.667" width="32.0" height="32.0" rotation="-0.0">
+			<properties>
+				<property name="layer" value="en"/>
+				<property name="PointLightComponent" value="{r:1,g:0.5,b:0.5,a:1,dist:1}"/>
+				<property name="z" value="0.0"/>
+			</properties>
+		</object>
+	</objectgroup>
+	<layer name="tiles4" width="50" height="30" visible="1" opacity="1.0">
+		<data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		</data>
+	</layer>
+</map>
